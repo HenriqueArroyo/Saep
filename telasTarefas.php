@@ -83,8 +83,8 @@ while ($row = pg_fetch_assoc($result_tarefas)) {
                         <br>
                         Prioridade: <?php echo ucfirst($tarefa['prioridade']); ?> | Atribuída a: <?php echo $tarefa['nome']; ?>
                         <br>
-                        <a href="telasTarefas.php?action=concluir&id_tarefa=<?php echo $tarefa['id_tarefa']; ?>" id="concluir">Concluir</a> | 
-                        <a href="telasTarefas.php?action=editar&id_tarefa=<?php echo $tarefa['id_tarefa']; ?>"id="editar">Editar</a> | 
+                        <a href="telasTarefas.php?action=concluir&id_tarefa=<?php echo $tarefa['id_tarefa']; ?>" id="concluir">Concluir</a>  
+                        <a href="telasTarefas.php?action=editar&id_tarefa=<?php echo $tarefa['id_tarefa']; ?>"id="editar">Editar</a> 
                         <a href="telasTarefas.php?action=remover&id_tarefa=<?php echo $tarefa['id_tarefa']; ?>" id="remover">Remover</a>
                     </li>
                 <?php endforeach; ?>
@@ -103,8 +103,8 @@ while ($row = pg_fetch_assoc($result_tarefas)) {
                         <br>
                         Prioridade: <?php echo ucfirst($tarefa['prioridade']); ?> | Atribuída a: <?php echo $tarefa['nome']; ?>
                         <br>
-                        <a href="telasTarefas.php?action=concluir&id_tarefa=<?php echo $tarefa['id_tarefa']; ?>" id="concluir">Concluir</a> | 
-                        <a href="telasTarefas.php?action=editar&id_tarefa=<?php echo $tarefa['id_tarefa']; ?>" id="editar">Editar</a> | 
+                        <a href="telasTarefas.php?action=concluir&id_tarefa=<?php echo $tarefa['id_tarefa']; ?>" id="concluir">Concluir</a>  
+                        <a href="telasTarefas.php?action=editar&id_tarefa=<?php echo $tarefa['id_tarefa']; ?>" id="editar">Editar</a> 
                         <a href="telasTarefas.php?action=remover&id_tarefa=<?php echo $tarefa['id_tarefa']; ?>"id="remover">Remover</a>
                     </li>
                 <?php endforeach; ?>
@@ -123,7 +123,7 @@ while ($row = pg_fetch_assoc($result_tarefas)) {
                         <br>
                         Prioridade: <?php echo ucfirst($tarefa['prioridade']); ?> | Atribuída a: <?php echo $tarefa['nome']; ?>
                         <br>
-                        <a href="telasTarefas.php?action=remover&id_tarefa=<?php echo $tarefa['id_tarefa']; ?>">Remover</a>
+                        <a href="telasTarefas.php?action=remover&id_tarefa=<?php echo $tarefa['id_tarefa']; ?>" id="remover">Remover</a>
                     </li>
                 <?php endforeach; ?>
             </ul>

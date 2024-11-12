@@ -3,11 +3,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-image: url('../img/wallpaper.webp');
+    background-size: cover;         /* Para que a imagem ocupe toda a tela */
+    background-position: center;    /* Centraliza a imagem */
+    background-attachment: fixed;   /* Faz com que a imagem de fundo não se mova ao rolar a página */
+    height: 100vh;           
 }
 
 .container {
-    width: 300px;
+    width: 400px;
     margin: 50px auto;
     padding: 20px;
     background-color: #fff;
@@ -29,7 +33,7 @@ label {
 }
 
 input {
-    width: 100%;
+    width: 95%;
     padding: 8px;
     margin: 5px 0;
     border: 1px solid #ccc;
@@ -39,7 +43,7 @@ input {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #a00303;
     color: white;
     border: none;
     border-radius: 4px;
@@ -47,7 +51,8 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #210000;
+    color: white;
 }
 
 p {
@@ -83,7 +88,7 @@ nav {
 
 
 .containera {
-    width: 300px;
+    width: 400px;
     margin: 50px auto;
     padding: 20px;
     background-color: #fff;
@@ -93,28 +98,30 @@ nav {
 
 #concluir {
   color: #ffffff;
-  font-size: larger;
   background-color: #45a049;
   text-decoration: none;
+  border:black 2px solid;
+  border-radius: 25px;
 }
 
 #editar {
     color: rgb(255, 255, 255);
-    font-size: larger;
     background-color: rgb(4, 4, 139);
     text-decoration: none;
-
+    border:black 2px solid;
+    border-radius: 25px;
 }
 
 #remover {
     color: white;
-    font-size: larger;
     background-color: red;
     text-decoration: none;
-
+    border:black 2px solid;
+    border-radius: 25px;
 }
 
-.containera a:hover{
+a:hover{
 transform: scale(1.25);
-transition: 3s;
+transition: 1s;
 }
+
