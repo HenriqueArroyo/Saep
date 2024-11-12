@@ -81,7 +81,7 @@ while ($row = pg_fetch_assoc($result_tarefas)) {
                     <li>
                         <strong><?php echo $tarefa['descricao']; ?></strong> (<?php echo $tarefa['setor']; ?>)
                         <br>
-                        Prioridade: <?php echo ucfirst($tarefa['prioridade']); ?> | Atribuída a: <?php echo $tarefa['nome']; ?>
+                       Prioridade:<b> <?php echo ucfirst($tarefa['prioridade']); ?> </b> <br> Atribuída a: <b> <?php echo $tarefa['nome']; ?></b>
                         <br>
                         <a href="telasTarefas.php?action=concluir&id_tarefa=<?php echo $tarefa['id_tarefa']; ?>" id="concluir">Concluir</a>  
                         <a href="telasTarefas.php?action=editar&id_tarefa=<?php echo $tarefa['id_tarefa']; ?>"id="editar">Editar</a> 
@@ -101,7 +101,7 @@ while ($row = pg_fetch_assoc($result_tarefas)) {
                     <li>
                         <strong><?php echo $tarefa['descricao']; ?></strong> (<?php echo $tarefa['setor']; ?>)
                         <br>
-                        Prioridade: <?php echo ucfirst($tarefa['prioridade']); ?> | Atribuída a: <?php echo $tarefa['nome']; ?>
+                        Prioridade: <b> <?php echo ucfirst($tarefa['prioridade']); ?></b> <br> Atribuída a: <b> <?php echo $tarefa['nome']; ?> </b>
                         <br>
                         <a href="telasTarefas.php?action=concluir&id_tarefa=<?php echo $tarefa['id_tarefa']; ?>" id="concluir">Concluir</a>  
                         <a href="telasTarefas.php?action=editar&id_tarefa=<?php echo $tarefa['id_tarefa']; ?>" id="editar">Editar</a> 
@@ -121,7 +121,7 @@ while ($row = pg_fetch_assoc($result_tarefas)) {
                     <li>
                         <strong><?php echo $tarefa['descricao']; ?></strong> (<?php echo $tarefa['setor']; ?>)
                         <br>
-                        Prioridade: <?php echo ucfirst($tarefa['prioridade']); ?> | Atribuída a: <?php echo $tarefa['nome']; ?>
+                        Prioridade: <b> <?php echo ucfirst($tarefa['prioridade']); ?> </b><br> Atribuída a: <b> <?php echo $tarefa['nome']; ?></b>
                         <br>
                         <a href="telasTarefas.php?action=remover&id_tarefa=<?php echo $tarefa['id_tarefa']; ?>" id="remover">Remover</a>
                     </li>
