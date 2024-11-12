@@ -56,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
         <a href="telasTarefas.php" target="_blank">Gerenciar Tarefas</a>
         <a href="cadastroTarefa.php" target="_blank">Novas Tarefas</a>
-        <a href="cadastroFuncionario.php" target="_blank">Cadastrar Tarefas</a>
+        <a href="cadastroFuncionario.php" target="_blank">Cadastrar Funcionario</a>
    
 </header>
 <nav></nav>

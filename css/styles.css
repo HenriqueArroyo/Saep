@@ -101,7 +101,6 @@ nav {
   background-color: #45a049;
   text-decoration: none;
   border:black 2px solid;
-  border-radius: 25px;
 }
 
 #editar {
@@ -109,7 +108,6 @@ nav {
     background-color: rgb(4, 4, 139);
     text-decoration: none;
     border:black 2px solid;
-    border-radius: 25px;
 }
 
 #remover {
@@ -117,7 +115,6 @@ nav {
     background-color: red;
     text-decoration: none;
     border:black 2px solid;
-    border-radius: 25px;
 }
 
 a:hover{
